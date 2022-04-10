@@ -1,0 +1,21 @@
+_id: req_870fe089c5224ee5a439d15d3cd45eb4
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1649603595557
+created: 1649603168298
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient/1730
+name: Patient Resource GET
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079284
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
