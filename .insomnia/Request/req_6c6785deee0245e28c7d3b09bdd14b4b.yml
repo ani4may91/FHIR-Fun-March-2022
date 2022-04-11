@@ -1,12 +1,12 @@
-_id: req_d0bbcf4366d7454594d08c90dbe0fb91
+_id: req_6c6785deee0245e28c7d3b09bdd14b4b
 type: Request
 parentId: fld_7957d6dd29914ba2998afad60d5411e2
-modified: 1649698219980
-created: 1649603079334
-url: http://fhirserver.hl7fundamentals.org/fhir/Patient/
-name: Patient Resource POST
+modified: 1649698286121
+created: 1649698273524
+url: http://fhirserver.hl7fundamentals.org/fhir/
+name: Patient Resource OPTIONS
 description: ""
-method: POST
+method: OPTIONS
 body:
   mimeType: application/json
   text: |-
@@ -59,7 +59,7 @@ headers:
     value: application/json
     id: pair_e0a3ff2ea4634faa968d34e0bbcaf9e2
 authentication: {}
-metaSortKey: -1649603079334
+metaSortKey: -1649603079327.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
