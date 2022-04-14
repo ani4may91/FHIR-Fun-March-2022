@@ -1,17 +1,17 @@
-_id: req_52cd4f2710c94d5db39a398c4416c916
+_id: req_3c0deea445a84009a990fab208d5b4c8
 type: Request
 parentId: fld_7957d6dd29914ba2998afad60d5411e2
-modified: 1649705631581
-created: 1649705207159
-url: http://fhirserver.hl7fundamentals.org/fhir/Patient?_id=1731
-name: Patient Resource Query ID
+modified: 1649950097245
+created: 1649706033132
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient?gender=
+name: Patient Resource Query family name and desc
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1649603079312.125
+metaSortKey: -1649603079309.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

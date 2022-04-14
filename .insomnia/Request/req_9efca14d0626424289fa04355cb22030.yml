@@ -1,17 +1,17 @@
-_id: req_52cd4f2710c94d5db39a398c4416c916
+_id: req_9efca14d0626424289fa04355cb22030
 type: Request
 parentId: fld_7957d6dd29914ba2998afad60d5411e2
-modified: 1649705631581
-created: 1649705207159
-url: http://fhirserver.hl7fundamentals.org/fhir/Patient?_id=1731
-name: Patient Resource Query ID
+modified: 1649705600196
+created: 1649705585919
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient/1730
+name: Patient Resource DELETE
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1649603079312.125
+metaSortKey: -1649603079316.8125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
