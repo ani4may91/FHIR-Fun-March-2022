@@ -1,9 +1,9 @@
 _id: req_d0bbcf4366d7454594d08c90dbe0fb91
 type: Request
 parentId: fld_7957d6dd29914ba2998afad60d5411e2
-modified: 1649954502827
+modified: 1650904831030
 created: 1649603079334
-url: http://fhirserver.hl7fundamentals.org/fhir/Patient/
+url: http://fhirserver.hl7fundamentals.org/fhir/patient/
 name: Patient Resource POST
 description: ""
 method: POST
@@ -20,16 +20,16 @@ body:
         "identifier": [
           {
             "system": "http://clinfhir.com/fhir/NamingSystem/identifier",
-            "value": "will.smith"
+            "value": "willy.smithy"
           }
         ],
         "name": [
           {
             "use": "official",
             "text": "Will Smith",
-            "family": "Smith",
+            "family": "Smithy",
             "given": [
-              "Will"
+              "Willy"
             ]
           }
         ],
