@@ -6,10 +6,6 @@
       "fullUrl": "urn:uuid:17C7D86E-664F-4FE2-91D7-AF9A8E47311E",
       "resource": {
         "resourceType": "Organization",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UWEARME - A DIVISION OF HEALTH GIZMOS                        CORP </div>"
-        },
         "identifier": [
           {
             "system": "http://fhirfun2021.org/ids",
@@ -37,13 +33,10 @@
       "fullUrl": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9",
       "resource": {
         "resourceType": "Patient",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tobias Cat</div>"
-        },
+        
         "identifier": [
           {
-            "system": "http://clinfhir.com/fhir/NamingSystem/identifier",
+            "system": "http://mypatientidentifier.com/ids",
             "value": "will.smith"
           }
         ],
@@ -62,7 +55,7 @@
         "address": [
           {
             "line": [
-              "3300 Washtenaw"
+              "5 Interop Ave, suite 22"
             ],
             "city": "Ann Harbor",
             "state": "MI",
@@ -80,17 +73,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Patient?identifier=http://mypatientidentifier.com/ids|[YOUR_PATIENT_IDENTIFIER]"
+        "url": "Patient?identifier=http://mypatientidentifier.com/ids|will.smith"
       }
     },
     {
       "fullUrl": "urn:uuid:b405c692-54ea-4d0d-afb1-8f91880a3f24",
       "resource": {
         "resourceType": "Device",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Device [YOUR_PATIENT_IDENTIFIER]                    </div>"
-        },
+        
         "identifier": [
           {
             "system": "http://uwearme.com/dev",
@@ -125,14 +115,11 @@
       "fullUrl": "urn:uuid:9b3055be-bb9f-4fce-b5da-599286eb2841",
       "resource": {
         "resourceType": "Observation",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # will.smith Respiratory Rate:15/min on 5.12.2016 </div>"
-        },
+     
         "identifier": [
           {
             "system": "http://uwearme.com/measures",
-            "value": "will.smith-5.12.2016-9279-1"
+            "value": "will.smith-2016-12-05T10:45:00+00:00-9279-1"
           }
         ],
         "status": "final",
@@ -148,9 +135,9 @@
         "subject": {
           "reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
         },
-        "effectiveDateTime": "2016-12-05T10:30:00+00:00",
+        "effectiveDateTime": "2016-12-05T10:45:00+00:00",
         "valueQuantity": {
-          "value": 15,
+          "value": 18,
           "unit": "/min"
         },
         "device": {
@@ -166,14 +153,10 @@
       "fullUrl": "urn:uuid:bf551c01-8aa5-4ace-99d4-ae03a5bc89e7",
       "resource": {
         "resourceType": "Observation",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # [YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_SYSTOLIC_BP]: [VALUE_SYSTOLIC_BP][UNIT_SYSTOLIC_BP] on [MEASURE_DATE] </div>"
-        },
         "identifier": [
           {
             "system": "http://uwearme.com/measures",
-            "value": "Will.Smith-05.12.2016-8480-6"
+            "value": "Will.Smith-2016-12-05T10:45:00+00:00-8480-6"
           }
         ],
         "status": "final",
@@ -189,9 +172,9 @@
         "subject": {
           "reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
         },
-        "effectiveDateTime": "2016-12-05T10:30:00+00:00",
+        "effectiveDateTime": "2016-12-05T10:45:00+00:00",
         "valueQuantity": {
-          "value": 120,
+          "value": 125,
           "unit": "mmHg"
         },
         "device": {
@@ -207,14 +190,10 @@
       "fullUrl": "urn:uuid:54e8f280-8f5c-4d63-a174-29a091ecb06a",
       "resource": {
         "resourceType": "Observation",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat # [YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_DIASTOLIC_BP]:[VALUE_DIASTOLIC_BP][UNIT_DIASTOLIC_BP] on [MEASURE_DATE] </div>"
-        },
         "identifier": [
           {
             "system": "http://uwearme.com/measures",
-            "value": "Will.Smith-05.12.2016-8462-4"
+            "value": "Will.Smith-2016-12-05T10:45:00+00:00-8462-4"
           }
         ],
         "status": "final",
@@ -230,9 +209,9 @@
         "subject": {
           "reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
         },
-        "effectiveDateTime": "2016-12-05T10:30:00+00:00",
+        "effectiveDateTime": "2016-12-05T10:45:00+00:00",
         "valueQuantity": {
-          "value": 80,
+          "value": 85,
           "unit": "mmHg"
         },
         "device": {
@@ -248,14 +227,10 @@
       "fullUrl": "urn:uuid:55c0f3ad-4a2e-4516-8e2c-3db15ed62941",
       "resource": {
         "resourceType": "Observation",
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> UW Measure for Pat #[YOUR_PATIENT_IDENTIFIER] [DESCRIPTION_HEART_RATE]:                        [VALUE_HEART_RATE][UNIT_HEART_RATE] on [MEASURE_DATE] </div>"
-        },
         "identifier": [
           {
             "system": "http://uwearme.com/measures",
-            "value": "Will.Smith-05.12.2016-8867-4"
+            "value": "Will.Smith-2016-12-05T10:45:00+00:00-8867-4"
           }
         ],
         "status": "final",
@@ -271,9 +246,9 @@
         "subject": {
           "reference": "urn:uuid:0fc374a1-a226-4552-9683-55dd510e67c9"
         },
-        "effectiveDateTime": "2016-12-05T10:30:00+00:00",
+        "effectiveDateTime": "2016-12-05T10:45:00+00:00",
         "valueQuantity": {
-          "value": 120,
+          "value": 135,
           "unit": "/min"
         },
         "device": {
