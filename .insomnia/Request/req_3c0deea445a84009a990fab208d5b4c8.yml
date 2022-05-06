@@ -1,0 +1,21 @@
+_id: req_3c0deea445a84009a990fab208d5b4c8
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1649951545398
+created: 1649706033132
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient?family=Smith&_sort=-_id
+name: Patient Resource Query family name and desc
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079309.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

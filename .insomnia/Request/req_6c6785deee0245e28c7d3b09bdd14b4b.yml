@@ -1,0 +1,69 @@
+_id: req_6c6785deee0245e28c7d3b09bdd14b4b
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1649698286121
+created: 1649698273524
+url: http://fhirserver.hl7fundamentals.org/fhir/
+name: Patient Resource OPTIONS
+description: ""
+method: OPTIONS
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "resourceType": "Patient",
+
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tobias Cat</div>"
+        },
+        "identifier": [
+          {
+            "system": "http://clinfhir.com/fhir/NamingSystem/identifier",
+            "value": "will.smith"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Will Smith",
+            "family": "Smith",
+            "given": [
+              "Will"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2000-01-01",
+        "address": [
+            {
+                "line": ["3300 Washtenaw"],
+                "city": "Ann Harbor",
+                "state": "MI",
+                "country": "US",
+                "postalCode": "48104",
+                "district": "Washtenaw"
+
+            }
+        ],
+        "telecom": [
+            {
+                "use": "home",
+                "value": "(03)55556789"
+            }
+        ]
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e0a3ff2ea4634faa968d34e0bbcaf9e2
+authentication: {}
+metaSortKey: -1649603079327.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

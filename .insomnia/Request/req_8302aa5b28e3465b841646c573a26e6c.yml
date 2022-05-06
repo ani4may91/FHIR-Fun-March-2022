@@ -1,0 +1,21 @@
+_id: req_8302aa5b28e3465b841646c573a26e6c
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1649955401022
+created: 1649954242877
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient?gender=male&given=will&birthdate=2000-01-01&_sort=-_lastUpdated
+name: Patient Resource Query gender, birthdate, given name, active
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079309.1953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,75 @@
+_id: req_47fb73658f36413fb622d8859580f49a
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1650675137164
+created: 1649603677361
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient/1731
+name: Patient Resource PUT
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"resourceType": "Patient",
+    	"id": "1731",
+    	"meta": {
+    		"versionId": "1",
+    		"lastUpdated": "2022-04-10T15:12:49.377+00:00",
+    		"source": "#OCtdsR2VDVI2SKgH"
+    	},
+    	"text": {
+    		"status": "generated",
+    		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tobias Cat</div>"
+    	},
+    	"identifier": [
+    		{
+    			"system": "http://clinfhir.com/fhir/NamingSystem/identifier",
+    			"value": "will.smith"
+    		}
+    	],
+    	"name": [
+    		{
+    			"use": "official",
+    			"text": "Will Smith",
+    			"family": "Smith",
+    			"given": [
+    				"Will"
+    			]
+    		}
+    	],
+    	"telecom": [
+    		{
+    			"value": "(01)55556789",
+    			"use": "home"
+    		}
+    	],
+    	"gender": "male",
+    	"birthDate": "2000-01-01",
+    	"address": [
+    		{
+    			"line": [
+    				"3300 Washtenaw"
+    			],
+    			"city": "Ann Arbor",
+    			"district": "Washtenaw",
+    			"state": "MO",
+    			"postalCode": "48104",
+    			"country": "USA"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e0a3ff2ea4634faa968d34e0bbcaf9e2
+authentication: {}
+metaSortKey: -1649603079309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

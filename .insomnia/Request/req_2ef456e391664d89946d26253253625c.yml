@@ -1,0 +1,21 @@
+_id: req_2ef456e391664d89946d26253253625c
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1649705451809
+created: 1649705401744
+url: http://fhirserver.hl7fundamentals.org/fhir/Patient?identifier=will.smith
+name: Patient Resource Query Identifier
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079310.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

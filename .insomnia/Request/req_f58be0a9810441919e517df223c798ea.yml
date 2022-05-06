@@ -1,0 +1,21 @@
+_id: req_f58be0a9810441919e517df223c798ea
+type: Request
+parentId: fld_538abc11766541569ebbe3e57187ae7d
+modified: 1651171098251
+created: 1650919876947
+url: http://fhirserver.hl7fundamentals.org/fhir/Observation?patient=9873&_sort=-_lastUpdated
+name: Querying observations
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079327.9453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

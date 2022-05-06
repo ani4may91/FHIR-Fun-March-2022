@@ -1,0 +1,21 @@
+_id: req_ad755db263ee4befa8eb95ca9fce160f
+type: Request
+parentId: fld_7957d6dd29914ba2998afad60d5411e2
+modified: 1650919835674
+created: 1649951584264
+url: http://fhirserver.hl7fundamentals.org/fhir/Observation?_id=
+name: Patient Resource Query gender, birthdate, given name
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649603079309.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
