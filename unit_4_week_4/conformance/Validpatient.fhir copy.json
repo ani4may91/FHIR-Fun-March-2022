@@ -1,0 +1,17 @@
+{"resourceType":"Patient",
+    "gender": "female",
+    "birthDate": "1991-05-04",
+    "name": [{"family": "Smith","given": ["Will"]}
+
+    ],
+    "identifier": [
+        {"system": "http://www.berzerkistan.gov/bni","value": "123"},{"system": "http://www.berzerkistan.gov/nhib","value": "456"}
+
+    ],
+    "extension": [{"url": "https://simplifier.net/MAIS-SOPORTEAFACTURA/PPHTaxSituation/~xml","valueCode": "U"}],
+    "telecom": [{"system": "phone","value": "+5411123456"}],
+    "text": {"div":"dksadjsakjdlkasjdsajdakld"}
+
+
+
+}

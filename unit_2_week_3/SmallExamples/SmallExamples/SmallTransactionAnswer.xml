@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="a74045f0-74a9-439e-9a36-5e64df8eb9aa"/>
+    <type value="transaction-response"/>
+    <link>
+        <relation value="self"/>
+        <url value="http://fhir.hl7fundamentals.org/baseDstu2"/>
+    </link>
+    <entry>
+        <response>
+            <status value="201 Created"/>
+            <location value="Organization/556/_history/1"/>
+            <etag value="1"/>
+            <lastModified value="2016-02-07T16:28:32.124-05:00"/>
+        </response>
+    </entry>
+    <entry>
+        <response>
+            <status value="201 Created"/>
+            <location value="Patient/557/_history/1"/>
+            <etag value="1"/>
+            <lastModified value="2016-02-07T16:28:32.132-05:00"/>
+        </response>
+    </entry>
+</Bundle>
